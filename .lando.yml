@@ -1,0 +1,12 @@
+name: hallseguro
+recipe: laravel
+config:
+  php: '7.3'
+  webroot: public
+  composer_version: '2.0.0'
+  via: apache
+  database: mysql:5.7
+  xdebug: true
+proxy:
+  appserver:
+    - hookahspacelounge.hallseguro.lndo.site
